@@ -20,10 +20,15 @@
   .card-type{font-weight:600}
   .card-date{color:#334155}
   .card-headline{font-size:13px;font-weight:600;color:#e2e8f0;line-height:1.35;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+  .card-headline.expanded{display:block;-webkit-line-clamp:unset;overflow:visible}
   .card-text{font-size:11px;color:#94a3b8;line-height:1.55;display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}
+  .card-text.expanded{display:block;-webkit-line-clamp:unset;overflow:visible}
+  .card-toggle{background:none;border:none;color:#3b82f6;font-size:10px;cursor:pointer;padding:2px 0;text-align:left;font-family:inherit}
+  .card-toggle:hover{color:#60a5fa}
   .card-footer{display:flex;align-items:center;justify-content:space-between;margin-top:4px;padding-top:8px;border-top:1px solid #1e293b}
   .card-cta{font-size:10px;color:#60a5fa;font-weight:600}
   .card-link{font-size:10px;color:#64748b;text-decoration:none}
+  @media print{.card-toggle{display:none}}
   @media(max-width:480px){.grid{grid-template-columns:1fr;padding:12px}.header{padding:16px}}
   @media(min-width:481px) and (max-width:700px){.grid{grid-template-columns:repeat(2,1fr);padding:16px}}
   @media print{
@@ -46,7 +51,7 @@
 <body>
 <div class="header">
   <h1>NonBank — Ad Creatives</h1>
-  <p>114 ads · clipped Apr 23, 2026 · published Apr 23, 2026</p>
+  <p>116 ads · clipped Apr 23, 2026 · published Apr 23, 2026</p>
 </div>
 <div class="grid">
       <div class="card">
@@ -90,7 +95,7 @@
 * ББСБ-ын 2,7-2,8% хүүтэй, урьдчилгаа 20-40%, 48 хүртэл сарын хугацаатай
 
 * Автомашин оролцуулахгүй
-* Бартер хийхгүй</div>
+* Бартер хийхгүй</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span class="card-cta">Call now</span>
             <a href="https://www.facebook.com/profile.php?id=1902062553413700" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -114,7 +119,7 @@ Flormar брэндийн SPF50 нарны тос хямдарлаа❤️
 📆 Хугацаа: 2026.04.03-04.30-ыг дуустал
 
 ✨Монголын хамгийн шилдэг лояалти хөтөлбөр #НоминБонус карт таны худалдан авалтыг 𝟑–𝟏𝟎% хүртэл хөнгөлнө.
-★ Номин Юнити ББСБ #АригБанк 🟡 𝐎𝐦𝐧𝐢𝐖𝐚𝐲 / 🔴 𝐏𝐨𝐜𝐤𝐞𝐭𝐙𝐞𝐫𝐨 / 🔵 𝐒𝐭𝐨𝐫𝐞𝐏𝐚𝐲 / 🟡 𝐓𝐨𝐤𝐢 / 🟣 𝐒𝐨𝐧𝐨 / 🔵 𝐌𝐨𝐧𝐩𝐚𝐲 🔴 𝐇𝐢𝐩𝐚𝐲 зээлээр авах боломжтой👍</div>
+★ Номин Юнити ББСБ #АригБанк 🟡 𝐎𝐦𝐧𝐢𝐖𝐚𝐲 / 🔴 𝐏𝐨𝐜𝐤𝐞𝐭𝐙𝐞𝐫𝐨 / 🔵 𝐒𝐭𝐨𝐫𝐞𝐏𝐚𝐲 / 🟡 𝐓𝐨𝐤𝐢 / 🟣 𝐒𝐨𝐧𝐨 / 🔵 𝐌𝐨𝐧𝐩𝐚𝐲 🔴 𝐇𝐢𝐩𝐚𝐲 зээлээр авах боломжтой👍</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span></span>
             <a href="https://www.facebook.com/profile.php?id=531061530412962" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -148,7 +153,7 @@ Flormar брэндийн SPF50 нарны тос хямдарлаа❤️
 Урьдчилгаа: 10% ~ 30%
 Сарын хүү: 1.6% ~ 2.6%
 Хугацаа: Цалин – 30 сар / Бизнес - 60-96 сар
-Шимтгэл: 0-1%</div>
+Шимтгэл: 0-1%</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span></span>
             <a href="https://www.facebook.com/profile.php?id=108747158783787" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -263,7 +268,7 @@ VIP luxury cars Mongolia
 #ford_explorer
 #landroverdiscovery
 #luxury
-#аялалын_машин</div>
+#аялалын_машин</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span class="card-cta">Send message</span>
             <a href="https://www.facebook.com/profile.php?id=320771938858892" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -320,7 +325,7 @@ VIP luxury cars Mongolia
 -----------------------------
 -----------------------------
 #ухаалаг #цоож #хүргэлт #угсралт #uhaalag #tsooj #hurgelt #ugsralt #smart #lock #service #үнэгүй #unegui #зээл #хүүгүй #хувааж #төл #zeel #huugui #huvaaj #tol
-#цагаан_сар #tsagaan_sar #hymdral #хямдрал #бэлэг #гэр_ахиу #баярын_бэлэг #belegtei</div>
+#цагаан_сар #tsagaan_sar #hymdral #хямдрал #бэлэг #гэр_ахиу #баярын_бэлэг #belegtei</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span class="card-cta">Send message</span>
             <a href="https://www.facebook.com/profile.php?id=101557515881296" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -363,7 +368,7 @@ VIP luxury cars Mongolia
 * ББСБ-ын 2,7-2,8% хүүтэй, урьдчилгаа 20-40%, 48 хүртэл сарын хугацаатай
 * Хаан, Хас, Богд банкны лизингтэй
 
-* Автомашин оролцуулахгүй</div>
+* Автомашин оролцуулахгүй</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span class="card-cta">Call now</span>
             <a href="https://www.facebook.com/profile.php?id=1902062553413700" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -419,7 +424,7 @@ Cruise Control / Limiter
 
 ☎️Утас: 8012-0296 
 Машинаа оролцуулж үлдэгдлээ Банк бусаар авч болно!
-Урьдчилгаа 30%-40%  ББСБ гаргана , Хөдөө орон нутаг байж болно</div>
+Урьдчилгаа 30%-40%  ББСБ гаргана , Хөдөө орон нутаг байж болно</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span class="card-cta">Send message</span>
             <a href="https://www.facebook.com/profile.php?id=102975652727113" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -452,7 +457,7 @@ Cruise Control / Limiter
 Урьдчилгаа: 10% ~ 30%
 Сарын хүү: 1.6% ~ 2.6%
 Хугацаа: Цалин – 30 сар / Бизнес - 60-96 сар
-Шимтгэл: 0-1%</div>
+Шимтгэл: 0-1%</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span></span>
             <a href="https://www.facebook.com/profile.php?id=108747158783787" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -486,7 +491,7 @@ Cruise Control / Limiter
 Урьдчилгаа: 10% ~ 30%
 Сарын хүү: 1.6% ~ 2.6%
 Хугацаа: Цалин – 30 сар / Бизнес - 60-96 сар
-Шимтгэл: 0-1%</div>
+Шимтгэл: 0-1%</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span></span>
             <a href="https://www.facebook.com/profile.php?id=108747158783787" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -502,7 +507,7 @@ Cruise Control / Limiter
           <div class="card-text">🎁ӨӨР ХААНААС Ч ОЛДОХГҮЙ ХЯМД ХҮҮ 
 🚗ОНЛАЙНААР СУДЛУУЛААД МАШИН БАРЬЦААЛСАН ЗЭЭЛЭЭ ШУУРХАЙ АВААРАЙ
 /ҮНЭЛГЭЭ ӨНДӨР - ХУГАЦАА УРТ 60 сар хүртэл/
-☎️9565-0011, 7777-7708, 8803-6653, 8603-6653</div>
+☎️9565-0011, 7777-7708, 8803-6653, 8603-6653</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span class="card-cta">Call now</span>
             <a href="https://www.facebook.com/profile.php?id=1419596491431324" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -545,7 +550,7 @@ Cruise Control / Limiter
  Бүх төрлийн Банк болон ББСБ-р худалдан авах боломжтой. 
 Урьдчилгаа 20-40% 
 Үнэ 66.0 сая
-☎️88-08-87-85</div>
+☎️88-08-87-85</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span class="card-cta">Call now</span>
             <a href="https://www.facebook.com/profile.php?id=276679018867309" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -597,7 +602,7 @@ Cruise Control / Limiter
 * ХАС банк 1.9% хүүтэй, урьдчилгаа 30%, 72 хүртэл сарын хугацаатай,хөдөө орон нутагт зээл гарна
 
 * Автомашин оролцуулахгүй
-* Бартер хийхгүй</div>
+* Бартер хийхгүй</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span class="card-cta">Call now</span>
             <a href="https://www.facebook.com/profile.php?id=1902062553413700" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -613,7 +618,7 @@ Cruise Control / Limiter
           <div class="card-text">🎁ӨӨР ХААНААС Ч ОЛДОХГҮЙ ХЯМД ХҮҮ 
 ⏳УРТ ХУГАЦААТАЙ ДУГААР БАРЬЦААЛСАН ЗЭЭЛ
 /ҮНЭЛГЭЭ ӨНДӨР - ХУГАЦАА УРТ 60 сар хүртэл/
-☎️9565-0011, 7777-7708, 8803-6653, 8603-6653</div>
+☎️9565-0011, 7777-7708, 8803-6653, 8603-6653</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span class="card-cta">Call now</span>
             <a href="https://www.facebook.com/profile.php?id=1419596491431324" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -636,7 +641,7 @@ Cruise Control / Limiter
 📍САЛБАР 2. БЗД, 16-Р ХОРОО, ДАНДАРБААТАРЫН ГУДАМЖ, СОЁМБО ТӨВ 301 ТООТ
 ☎️ 90978085, 90958085
 📍САЛБАР 3. СХД, 18- Р ХОРОО, 19-Р БАЙРНЫ ҮЙЛЧИЛГЭЭНИЙ ТӨВИЙН 2 ДАВХАРТ 
-☎️ 90058085, 91058085</div>
+☎️ 90058085, 91058085</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span class="card-cta">Send message</span>
             <a href="https://www.facebook.com/profile.php?id=1577304702541752" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -664,7 +669,7 @@ Cruise Control / Limiter
 
 Омни Капитал I Зорилго бүхэн үнэ цэнтэй
 
-Салбаруудын хаяг байршлын талаарх мэдээллийг доорх холбоосоор орж үзнэ үү: https://omnicapital.mn/branch</div>
+Салбаруудын хаяг байршлын талаарх мэдээллийг доорх холбоосоор орж үзнэ үү: https://omnicapital.mn/branch</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span></span>
             <a href="https://www.facebook.com/profile.php?id=107888228426528" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -688,7 +693,7 @@ Cruise Control / Limiter
 📍САЛБАР 2. БЗД, 16-РХОРОО, ДАНДАРБААТАРЫН ГУДАМЖ, СОЁМБО ТӨВ 301 ТООТ
 ☎️ 90978085, 90958085
 📍САЛБАР 3. СХД, 18- Р ХОРОО, 19-Р БАЙРНЫ ҮЙЛЧИЛГЭЭНИЙ ТӨВИЙН 2 ДАВХАРТ 
-☎️ 90058085, 91058085</div>
+☎️ 90058085, 91058085</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span class="card-cta">Send message</span>
             <a href="https://www.facebook.com/profile.php?id=1577304702541752" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -712,7 +717,7 @@ Cruise Control / Limiter
 ☎️ Мэдээлэл авах бол: 75070008
 📍Салбар байршил үзэх https://www.facebook.com/reel/1399162945013874
 
-#бсбфинанс #bsbfinance #шуурхайзээл #Барьцаагүйзээл #БАРЬЦААГҮЙ #шуурхай</div>
+#бсбфинанс #bsbfinance #шуурхайзээл #Барьцаагүйзээл #БАРЬЦААГҮЙ #шуурхай</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span class="card-cta">Call now</span>
             <a href="https://www.facebook.com/profile.php?id=754650367737776" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -736,7 +741,7 @@ BSB Finance NBFI -н зээлээр газар дээр нь аваарай.
  #PocketZero, #Sono хүссэн зээлийн нөхцөлөөр хүссэн бараагаа авах боломжтой.
 .
 .
-#BSB #BetterLifeStyle #AcerGaming #acerpredator #acernitro</div>
+#BSB #BetterLifeStyle #AcerGaming #acerpredator #acernitro</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span class="card-cta">Send message</span>
             <a href="https://www.facebook.com/profile.php?id=121395519683" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -761,7 +766,7 @@ BSB Finance NBFI -н зээлээр газар дээр нь аваарай.
 📍САЛБАР 3. СХД, 18- Р ХОРОО, 19-Р БАЙРНЫ ҮЙЛЧИЛГЭЭНИЙ ТӨВИЙН 2 ДАВХАРТ 
 ☎️ 90058085, 91058085
 
-  #Худалдан #зээл</div>
+  #Худалдан #зээл</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span class="card-cta">Send message</span>
             <a href="https://www.facebook.com/profile.php?id=1577304702541752" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -780,7 +785,7 @@ BSB Finance NBFI -н зээлээр газар дээр нь аваарай.
 
 Омни Капитал I Зорилго бүхэн үнэ цэнтэй
 
-Салбаруудын хаяг байршлын талаарх мэдээллийг дараах холбоосоор орж үзнэ үү: https://omnicapital.mn/branch</div>
+Салбаруудын хаяг байршлын талаарх мэдээллийг дараах холбоосоор орж үзнэ үү: https://omnicapital.mn/branch</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span class="card-cta">No button</span>
             <a href="https://www.facebook.com/profile.php?id=107888228426528" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -809,7 +814,7 @@ BSB Finance NBFI -н зээлээр газар дээр нь аваарай.
 📍 BSB Mebel, Эрдэнэт салбар: 7509-3003
 📍 BSB Mebel, Өмнөговь салбар: 7509-4004
 
-🌐 www.bsb.mn</div>
+🌐 www.bsb.mn</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span class="card-cta">No button</span>
             <a href="https://www.facebook.com/profile.php?id=278962405546174" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -834,7 +839,7 @@ BSB Finance NBFI -н зээлээр газар дээр нь аваарай.
 ☎️ Мэдээлэл авах бол: 75070008
 📍Салбар байршил үзэх https://www.facebook.com/reel/1399162945013874
 
-#бсбфинанс #bsbfinance #бизнесийнзээл #бизнес</div>
+#бсбфинанс #bsbfinance #бизнесийнзээл #бизнес</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span class="card-cta">Call now</span>
             <a href="https://www.facebook.com/profile.php?id=754650367737776" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -849,7 +854,7 @@ BSB Finance NBFI -н зээлээр газар дээр нь аваарай.
           <div class="card-headline">Omni Capital</div>
           <div class="card-text">&quot;АВТОМАШИНЫ ЗЭЭЛЭЭ 30 МИНУТЫН ДОТОР&quot; 🤝
 
-◽Автомашины зээлийн үйлчилгээтэй холбоотой дэлгэрэнгүй мэдээллийг &quot;Omni Capital&quot; фейсбүүк хуудас болон 7277-8282 утсаар холбогдон авах боломжтой. ⬇️</div>
+◽Автомашины зээлийн үйлчилгээтэй холбоотой дэлгэрэнгүй мэдээллийг &quot;Omni Capital&quot; фейсбүүк хуудас болон 7277-8282 утсаар холбогдон авах боломжтой. ⬇️</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span class="card-cta">Like Page</span>
             <a href="https://www.facebook.com/profile.php?id=107888228426528" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -873,7 +878,7 @@ BSB Finance NBFI -н зээлээр газар дээр нь аваарай.
 ☎️ Мэдээлэл авах бол: 75070008
 📍Салбар байршил үзэх https://www.facebook.com/reel/1399162945013874
 
-#бсбфинанс #bsbfinance #бизнесийнзээл #эмэгтэйчүүд #Эмэгтэйчүүдийн</div>
+#бсбфинанс #bsbfinance #бизнесийнзээл #эмэгтэйчүүд #Эмэгтэйчүүдийн</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span class="card-cta">Send message</span>
             <a href="https://www.facebook.com/profile.php?id=754650367737776" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -896,7 +901,7 @@ BSB Finance NBFI -н зээлээр газар дээр нь аваарай.
 ☎️ Мэдээлэл авах бол: 75070008
 📍Салбар байршил үзэх https://www.facebook.com/reel/1399162945013874
 
-#Ногоонзээл #бсбфинанс #БСБ #bsbfinance #EnergySavings #Электронбараа #bsb #BetterLifeStyle</div>
+#Ногоонзээл #бсбфинанс #БСБ #bsbfinance #EnergySavings #Электронбараа #bsb #BetterLifeStyle</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span class="card-cta">Send message</span>
             <a href="https://www.facebook.com/profile.php?id=754650367737776" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -920,7 +925,7 @@ BSB Finance NBFI -н зээлээр газар дээр нь аваарай.
 ☎️ Мэдээлэл авах бол: 75070008
 📍Салбар байршил үзэх https://www.facebook.com/reel/1399162945013874
 
-#бсбфинанс #барьцаалсанзээл #Автомашинбарьцаалсанзээл #зээл #шуурхайзээл #bsbfinance</div>
+#бсбфинанс #барьцаалсанзээл #Автомашинбарьцаалсанзээл #зээл #шуурхайзээл #bsbfinance</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span class="card-cta">Call now</span>
             <a href="https://www.facebook.com/profile.php?id=754650367737776" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -945,7 +950,7 @@ BSB Finance NBFI -с урьдчилгаагүй зээлээр хүссэн ба
  #PocketZero, #Sono хүссэн зээлийн нөхцөлөөр хүссэн бараагаа авах боломжтой.
 .
 .
-#BSB #BetterLifeStyle #EXTRASALE</div>
+#BSB #BetterLifeStyle #EXTRASALE</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span class="card-cta">Send message</span>
             <a href="https://www.facebook.com/profile.php?id=121395519683" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -969,7 +974,7 @@ BSB Finance NBFI -с урьдчилгаагүй зээлээр хүссэн ба
 ☎️ Мэдээлэл авах бол: 75070008
 📍Салбар байршил үзэх https://www.facebook.com/reel/1399162945013874
 
-#бсбфинанс #bsbfinance #өрхийнзээл #Өрхийн #зээл</div>
+#бсбфинанс #bsbfinance #өрхийнзээл #Өрхийн #зээл</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span class="card-cta">Send message</span>
             <a href="https://www.facebook.com/profile.php?id=754650367737776" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -993,7 +998,7 @@ BSB Finance NBFI -с урьдчилгаагүй зээлээр хүссэн ба
 ☎️ Мэдээлэл авах бол: 75070008
 📍Салбар байршил үзэх https://www.facebook.com/reel/1399162945013874
 
-#бсбфинанс #худалданавахзээл #Автомашинызээл #зээл #шуурхайзээл #bsbfinance #автомашинылизинг</div>
+#бсбфинанс #худалданавахзээл #Автомашинызээл #зээл #шуурхайзээл #bsbfinance #автомашинылизинг</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span class="card-cta">Send message</span>
             <a href="https://www.facebook.com/profile.php?id=754650367737776" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -1019,7 +1024,7 @@ BSB Finance NBFI -с урьдчилгаагүй зээлээр хүссэн ба
 #PocketZero, #Sono хүссэн зээлийн нөхцөлөөр хүссэн бараагаа авах боломжтой.
 .
 .
-#BSB #BetterLifeStyle #EXTRASALE</div>
+#BSB #BetterLifeStyle #EXTRASALE</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span class="card-cta">Send message</span>
             <a href="https://www.facebook.com/profile.php?id=121395519683" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -1046,7 +1051,7 @@ https://appgallery.huawei.com/app/C110842261
 
 ☎️ Мэдээлэл авах бол: 75070008
 
-#Ногоонзээл #бсбфинанс #БСБ #bsbfinance #bsb #ХҮҮГҮЙ #УРЬДЧИЛГААГҮЙ #хуваантөлөх</div>
+#Ногоонзээл #бсбфинанс #БСБ #bsbfinance #bsb #ХҮҮГҮЙ #УРЬДЧИЛГААГҮЙ #хуваантөлөх</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span class="card-cta">Send message</span>
             <a href="https://www.facebook.com/profile.php?id=754650367737776" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -1071,7 +1076,7 @@ BSB Finance NBFI -с урьдчилгаагүй зээлээр авах боло
  #PocketZero, #Sono хүссэн зээлийн нөхцөлөөр хүссэн бараагаа авах боломжтой.
 .
 .
-#BSB #BetterLifeStyle #LG</div>
+#BSB #BetterLifeStyle #LG</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span class="card-cta">Send message</span>
             <a href="https://www.facebook.com/profile.php?id=121395519683" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -1100,7 +1105,7 @@ BSB Finance NBFI -с урьдчилгаагүй зээлээр авах боло
 📍 BSB Mebel, Эрдэнэт салбар: 7509-3003
 📍 BSB Mebel, Өмнөговь салбар: 7509-4004
 
-🌐 www.bsb.mn</div>
+🌐 www.bsb.mn</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span class="card-cta">No button</span>
             <a href="https://www.facebook.com/profile.php?id=278962405546174" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -1125,7 +1130,7 @@ ProLink брэндийн WiFi тэлэгч төхөөрөмж зөвхөн BSB-�
 
 BSB Finance NBFI -н зээлээр газар дээр нь аваарай.
 👉🏻 Зээлийн хүсэлт - https://forms.gle/KTEL7L2ryaWAM2NJ7 
- #PocketZero, #Sono хүссэн зээлийн нөхцөлөөр хүссэн бараагаа авах боломжтой.</div>
+ #PocketZero, #Sono хүссэн зээлийн нөхцөлөөр хүссэн бараагаа авах боломжтой.</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span class="card-cta">Send message</span>
             <a href="https://www.facebook.com/profile.php?id=121395519683" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -1148,7 +1153,7 @@ BSB Finance NBFI -н зээлээр газар дээр нь аваарай.
 
 📍 Хотын төвд, хамгийн өргөн сонголттой ТБД Андуудын замын эсрэг талд BSB Lifestyle 
 
-☎️ : 9987-7499 , 9903-5283 , 7505-0272</div>
+☎️ : 9987-7499 , 9903-5283 , 7505-0272</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span class="card-cta">No button</span>
             <a href="https://www.facebook.com/profile.php?id=278962405546174" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -1170,7 +1175,7 @@ BSB Finance NBFI -н зээлээр газар дээр нь аваарай.
 ☎️ Мэдээлэл авах бол: 75070008
 📍Салбар байршил үзэх https://www.facebook.com/reel/1399162945013874
 
-#бсбфинанс #барьцаалсанзээл #ҮлХөдлөхХөрөнгө #зээл #шуурхайзээл #bsbfinance</div>
+#бсбфинанс #барьцаалсанзээл #ҮлХөдлөхХөрөнгө #зээл #шуурхайзээл #bsbfinance</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span class="card-cta">Send message</span>
             <a href="https://www.facebook.com/profile.php?id=754650367737776" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -1194,7 +1199,7 @@ BSB Finance NBFI -н зээлээр газар дээр нь аваарай.
 ☎️ Мэдээлэл авах бол: 75070008
 📍Салбар байршил үзэх https://www.facebook.com/reel/1399162945013874
 
-#бсбфинанс #bsbfinance #бизнесийнзээл #эмэгтэйчүүд</div>
+#бсбфинанс #bsbfinance #бизнесийнзээл #эмэгтэйчүүд</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span></span>
             <a href="https://www.facebook.com/profile.php?id=754650367737776" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -1217,7 +1222,7 @@ BSB Finance NBFI -н зээлээр газар дээр нь аваарай.
 ☎️ Мэдээлэл авах бол: 75070008
 📍Салбар байршил үзэх https://www.facebook.com/reel/1399162945013874
 
-#бсбфинанс #барьцаалсанзээл #ҮлХөдлөхХөрөнгө #зээл #шуурхайзээл #bsbfinance</div>
+#бсбфинанс #барьцаалсанзээл #ҮлХөдлөхХөрөнгө #зээл #шуурхайзээл #bsbfinance</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span class="card-cta">Send message</span>
             <a href="https://www.facebook.com/profile.php?id=754650367737776" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -1240,7 +1245,7 @@ BSB Finance NBFI -н зээлээр газар дээр нь аваарай.
 
 📍 Хотын төвд, хамгийн өргөн сонголттой ТБД Андуудын замын эсрэг талд BSB Lifestyle 
 
-☎️ : 9987-7499 , 9903-5283 , 7505-0272</div>
+☎️ : 9987-7499 , 9903-5283 , 7505-0272</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span class="card-cta">Send message</span>
             <a href="https://www.facebook.com/profile.php?id=278962405546174" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -1263,7 +1268,7 @@ BSB Finance NBFI -с урьдчилгаагүй зээлээр авах боло
  #PocketZero, #Sono хүссэн зээлийн нөхцөлөөр хүссэн бараагаа авах боломжтой.
 .
 .
-#BSB #BetterLifeStyle #XiaomiMongolia</div>
+#BSB #BetterLifeStyle #XiaomiMongolia</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span class="card-cta">Send message</span>
             <a href="https://www.facebook.com/profile.php?id=121395519683" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -1286,7 +1291,7 @@ BSB Finance NBFI -с урьдчилгаагүй зээлээр авах боло
 ☎️ Мэдээлэл авах бол: 75070008
 📍Салбар байршил үзэх https://www.facebook.com/reel/1399162945013874
 
-#Ногоонзээл #бсбфинанс #БСБ #bsbfinance #ecofurniture #Тавилга #bsb #BSBMebel #хүүгүйзээл</div>
+#Ногоонзээл #бсбфинанс #БСБ #bsbfinance #ecofurniture #Тавилга #bsb #BSBMebel #хүүгүйзээл</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span class="card-cta">Send message</span>
             <a href="https://www.facebook.com/profile.php?id=754650367737776" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -1305,7 +1310,7 @@ BSB Finance NBFI -с урьдчилгаагүй зээлээр авах боло
 ☎️ Мэдээлэл авах бол: 75070008
 📍Салбар байршил үзэх https://www.facebook.com/reel/1399162945013874
 
-#бсбфинанс #ЖижигДундБизнес #бизнесийнзээл #зээл #бизнесэрхлэгч</div>
+#бсбфинанс #ЖижигДундБизнес #бизнесийнзээл #зээл #бизнесэрхлэгч</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span class="card-cta">Call now</span>
             <a href="https://www.facebook.com/profile.php?id=754650367737776" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -1331,7 +1336,7 @@ BSB Finance NBFI -с урьдчилгаагүй зээлээр авах боло
  #PocketZero, #Sono хүссэн зээлийн нөхцөлөөр хүссэн бараагаа авах боломжтой.
 .
 .
-#BSB #BetterLifeStyle #XiaomiMongolia</div>
+#BSB #BetterLifeStyle #XiaomiMongolia</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span></span>
             <a href="https://www.facebook.com/profile.php?id=121395519683" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -1356,7 +1361,7 @@ BSB Finance NBFI  -с урьдчилгаагүй зээлээр авах бол�
  #PocketZero, #Sono хүссэн зээлийн нөхцөлөөр хүссэн бараагаа авах боломжтой.
 .
 .
-#BSB #BetterLifeStyle #LG</div>
+#BSB #BetterLifeStyle #LG</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span class="card-cta">Send message</span>
             <a href="https://www.facebook.com/profile.php?id=121395519683" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -1386,7 +1391,7 @@ BSB Finance NBFI  -с урьдчилгаагүй зээлээр авах бол�
 📍 BSB Mebel, Эрдэнэт салбар: 7509-3003
 📍 BSB Mebel, Өмнөговь салбар: 7509-4004
 
-🌐 www.bsb.mn</div>
+🌐 www.bsb.mn</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span></span>
             <a href="https://www.facebook.com/profile.php?id=278962405546174" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -1416,7 +1421,7 @@ BSB Finance NBFI  -с урьдчилгаагүй зээлээр авах бол�
 📍 BSB Mebel, Эрдэнэт салбар: 7509-3003
 📍 BSB Mebel, Өмнөговь салбар: 7509-4004
 
-🌐 www.bsb.mn</div>
+🌐 www.bsb.mn</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span></span>
             <a href="https://www.facebook.com/profile.php?id=278962405546174" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -1443,7 +1448,7 @@ BSB Finance NBFI  -с урьдчилгаагүй зээлээр авах бол�
 • ⚡ Уян хатан нөхцөлтэй хамтран ажиллана
 • ⚡ Санхүүгийн эрх чөлөөг танд ойртуулна
 Холбоо барих:
-📞 Утас: 8926-1779 ээлээчөлөөл #зээлчөлөөлнө #зээлийн #зээл #Барьцаа #үлхөдлөх</div>
+📞 Утас: 8926-1779 ээлээчөлөөл #зээлчөлөөлнө #зээлийн #зээл #Барьцаа #үлхөдлөх</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span class="card-cta">Call now</span>
             <a href="https://www.facebook.com/profile.php?id=104314081447227" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -1470,7 +1475,7 @@ BSB Finance NBFI  -с урьдчилгаагүй зээлээр авах бол�
 • ⚡ Уян хатан нөхцөлтэй хамтран ажиллана
 • ⚡ Санхүүгийн эрх чөлөөг танд ойртуулна
 Холбоо барих:
-📞 Утас: 8926-1779 ээлээчөлөөл #зээлчөлөөлнө #зээлийн #зээл #Барьцаа #үлхөдлөх</div>
+📞 Утас: 8926-1779 ээлээчөлөөл #зээлчөлөөлнө #зээлийн #зээл #Барьцаа #үлхөдлөх</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span class="card-cta">Call now</span>
             <a href="https://www.facebook.com/profile.php?id=104314081447227" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -1489,7 +1494,7 @@ BSB Finance NBFI  -с урьдчилгаагүй зээлээр авах бол�
 Сар шинэдээ сайхан шинэлээрэй 
 Харилцагч та бүхэндээ урган гарч буй XVII жарны &quot; Сүрээр дарагч &quot; хэмээх Гал морин жилийн сар шинийн мэнд дэвшүүлье! 
 #Udamfinance_nbfi
-7703-5555</div>
+7703-5555</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span class="card-cta">No button</span>
             <a href="https://www.facebook.com/profile.php?id=110163594088040" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -1512,7 +1517,7 @@ BSB Finance NBFI  -с урьдчилгаагүй зээлээр авах бол�
 🌏www.tavanbogdfinance.com
 📞7533-1111
 
-#TavanBogdFinanceNBFI #Танысанхүүгийнмэдлэгт</div>
+#TavanBogdFinanceNBFI #Танысанхүүгийнмэдлэгт</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span class="card-cta">No button</span>
             <a href="https://www.facebook.com/profile.php?id=108780898139511" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -1544,7 +1549,7 @@ Founded in the United Kingdom in 2006, the International Customer Experience Ins
 
 We sincerely wish the team continued success in their journey of continuous improvement. 🤝👏✨
 
-https://www.cmi.mn/standards/idcxs</div>
+https://www.cmi.mn/standards/idcxs</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span class="card-cta">Learn more</span>
             <a href="https://www.facebook.com/profile.php?id=100598682050621" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -1567,7 +1572,7 @@ https://www.cmi.mn/standards/idcxs</div>
 🌏www.tavanbogdfinance.com
 📞7533-1111
 
-#TavanBogdFinanceNBFI #Танысанхүүгийнмэдлэгт</div>
+#TavanBogdFinanceNBFI #Танысанхүүгийнмэдлэгт</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span class="card-cta">No button</span>
             <a href="https://www.facebook.com/profile.php?id=108780898139511" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -1590,7 +1595,7 @@ https://www.cmi.mn/standards/idcxs</div>
 🌏www.tavanbogdfinance.com
 📞7533-1111
 
-#TavanBogdFinanceNBFI #Танысанхүүгийнмэдлэгт</div>
+#TavanBogdFinanceNBFI #Танысанхүүгийнмэдлэгт</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span class="card-cta">No button</span>
             <a href="https://www.facebook.com/profile.php?id=108780898139511" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -1619,7 +1624,7 @@ PayOn аппликейшнаа гар утсандаа суулгаад, хүс�
 🌏www.tavanbogdfinance.com
 📞7533-1111
 
-#TavanBogdFinanceNBFI #Зээл #Автомашин #АвтомашиныЗээл #УянХатанНөхцөл #Аяллыгсанхүүжүүлнэ</div>
+#TavanBogdFinanceNBFI #Зээл #Автомашин #АвтомашиныЗээл #УянХатанНөхцөл #Аяллыгсанхүүжүүлнэ</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span class="card-cta">Visit Profile</span>
             <a href="https://www.facebook.com/profile.php?id=108780898139511" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -1637,7 +1642,7 @@ PayOn аппликейшнаа гар утсандаа суулгаад, хүс�
 Итгэлцэл гэдэг нь харилцагч (итгэмжлэгч) өөрийн мөнгөн хөрөнгийг банк бус санхүүгийн байгууллагад (ББСБ) тодорхой хугацаа, нөхцөлтэйгээр итгэмжлэн байршуулж, ББСБ тухайн хөрөнгийг хууль, журамд нийцүүлэн удирдаж, үр шим бий болгох харилцааг хэлнэ.
 
 Хүндэтгэсэн
-Таван Богд Финанс ББСБ | Таны зорилгыг санхүүжүүлнэ</div>
+Таван Богд Финанс ББСБ | Таны зорилгыг санхүүжүүлнэ</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span class="card-cta">No button</span>
             <a href="https://www.facebook.com/profile.php?id=108780898139511" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -1666,7 +1671,7 @@ PayOn аппликейшнаа гар утсандаа суулгаад, хүс�
 🌏www.tavanbogdfinance.com
 📞7533-1111
 
-#TavanBogdFinanceNBFI #Зээл #Автомашин #АвтомашиныЗээл #УянХатанНөхцөл #Аяллыгсанхүүжүүлнэ</div>
+#TavanBogdFinanceNBFI #Зээл #Автомашин #АвтомашиныЗээл #УянХатанНөхцөл #Аяллыгсанхүүжүүлнэ</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span></span>
             <a href="https://www.facebook.com/profile.php?id=108780898139511" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -1703,7 +1708,7 @@ PayOn аппликейшнаа гар утсандаа суулгаад хүсс
 🌏www.tavanbogdfinance.com
 📞7533-1111
 
-#TavanBogdFinanceNBFI #Зээл #НогоонЗээл #GreenOn</div>
+#TavanBogdFinanceNBFI #Зээл #НогоонЗээл #GreenOn</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span class="card-cta">Visit Profile</span>
             <a href="https://www.facebook.com/profile.php?id=108780898139511" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -1743,7 +1748,7 @@ https://nito.one/job/my?tab=active
 📞9400-3821
 🌏 www.tavanbogdfinance.com
 
-#Танызорилгыгсанхүүжүүлнэ #Greenfintech</div>
+#Танызорилгыгсанхүүжүүлнэ #Greenfintech</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span class="card-cta">No button</span>
             <a href="https://www.facebook.com/profile.php?id=108780898139511" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -1768,7 +1773,7 @@ PayOn аппликейшнаа гар утсандаа суулгаад, хүс�
 🌏www.tavanbogdfinance.com
 📞7533-1111
 
-#TavanBogdFinanceNBFI #Зээл #Автомашин #АвтомашиныЗээл #УянХатанНөхцөл #Аяллыгсанхүүжүүлнэ</div>
+#TavanBogdFinanceNBFI #Зээл #Автомашин #АвтомашиныЗээл #УянХатанНөхцөл #Аяллыгсанхүүжүүлнэ</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span class="card-cta">Visit Profile</span>
             <a href="https://www.facebook.com/profile.php?id=108780898139511" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -1806,7 +1811,7 @@ Tyche Grill Lounge Bar нартаа баярлалаа.
 
 Тэмцээнд оролцсон нийт баг, тамирчдадаа дараагийн тэмцээнүүдэд нь өндөр амжилт хүсье! 💚
 
-#TavanBogdFinanceNBFI #Esportcompetition</div>
+#TavanBogdFinanceNBFI #Esportcompetition</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span class="card-cta">No button</span>
             <a href="https://www.facebook.com/profile.php?id=1092826220572137" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -1838,7 +1843,7 @@ Tyche Grill Lounge Bar нартаа баярлалаа.
 📍 100 айл салбар 8888-6710 (СБД, 10-р хороо, АМО төв 4-406)
 🕙 Мягмар–Бямба | 10:00–18:00
 📍 22-ын товчоо салбар 8071-9595 (СХД, 32-р хороо, Автоком төв А блок 3-302)
-🕙 Мягмар–Бямба | 10:00–18:00</div>
+🕙 Мягмар–Бямба | 10:00–18:00</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span class="card-cta">Visit Profile</span>
             <a href="https://www.facebook.com/profile.php?id=101852738159699" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -1862,7 +1867,7 @@ Tyche Grill Lounge Bar нартаа баярлалаа.
 📉 Хүү: 2.6%
 
 📞 Холбогдох утас: 7717-7777
-🌐 www.sbtcredit.mn</div>
+🌐 www.sbtcredit.mn</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span class="card-cta">Call now</span>
             <a href="https://www.facebook.com/profile.php?id=981079625416050" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -1889,7 +1894,7 @@ Tyche Grill Lounge Bar нартаа баярлалаа.
  #PocketZero, #Sono хүссэн зээлийн нөхцөлөөр хүссэн бараагаа авах боломжтой.
 .
 .
-#BSB #BetterLifeStyle #EXTRASALE</div>
+#BSB #BetterLifeStyle #EXTRASALE</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span class="card-cta">Send message</span>
             <a href="https://www.facebook.com/profile.php?id=1081422101965690" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -1907,7 +1912,7 @@ Tyche Grill Lounge Bar нартаа баярлалаа.
 Арапахо капитал ББСБд хандаарай👋
 Дэлгэрэнгүй мэдээлэл авахыг хүсвэл 
 📞80067607
-📍Төв аймаг,Зуунмод Скай худалдааны төвийн 2р давхар</div>
+📍Төв аймаг,Зуунмод Скай худалдааны төвийн 2р давхар</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span class="card-cta">Send message</span>
             <a href="https://www.facebook.com/profile.php?id=496433713561711" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -1969,7 +1974,7 @@ HI PAY
 ☎️8946-1100
 https://global-travel.mn/
 📍CITY TOWER, 7 ДАВХАРТ, 701 ТООТ
-ДЭЛХИЙГЭЭР АЯЛЖ ДЭЛХИЙН ДАЙТАЙ СЭТГЭЕ!</div>
+ДЭЛХИЙГЭЭР АЯЛЖ ДЭЛХИЙН ДАЙТАЙ СЭТГЭЕ!</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span class="card-cta">Send message</span>
             <a href="https://www.facebook.com/profile.php?id=414780122197321" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -1989,7 +1994,7 @@ https://global-travel.mn/
 📍Яармагын 2-р буудал Титан плас төв 4 давхар 403 тоот      
 ☎️77777-105, 9507-7105, 9402-7105
 
- #Бага_Хүү #УянХатанНөхцөл #Хурданшуурхай #газар #Газаркапиталпартнерс</div>
+ #Бага_Хүү #УянХатанНөхцөл #Хурданшуурхай #газар #Газаркапиталпартнерс</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span class="card-cta">Send message</span>
             <a href="https://www.facebook.com/profile.php?id=1433688690201206" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -2020,7 +2025,7 @@ Omniway аппликейшн татах бол 👇🏻
 🤳 https://shorturl.at/FyDpJ
  
 Холбоо барих: 7799 1000
-#digitalnomad #Omniway #GeregeKiosk #ЗээлийнГэрээ #хялбаршийдэл #nominunity</div>
+#digitalnomad #Omniway #GeregeKiosk #ЗээлийнГэрээ #хялбаршийдэл #nominunity</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span class="card-cta">Send message</span>
             <a href="https://www.facebook.com/profile.php?id=253429075552349" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -2052,7 +2057,7 @@ Omniway аппликейшн татах бол 👇🏻
 -Хан-Уул дүүрэг, Номин Юнайтед их дэлгүүр, 2 давхарт
 -3,4 Хороолол, Номин Плаза Их Дэлгүүр, 4 давхарт
 -СХД 32-р хороо, Авто худалдааны цогцолбор, Автоком төв, 1 давхарт
-#зээл #loan #bank #bankbus #finance #credit #зээлийнүйлчилгээ #мөнгө #санхүү #зээлдүүлнэ #олгоно #loan #ББСБ #банк #зээл #өгнө #банкбус #шуурхайзээл #банк #Мөнгө #зээлнэ</div>
+#зээл #loan #bank #bankbus #finance #credit #зээлийнүйлчилгээ #мөнгө #санхүү #зээлдүүлнэ #олгоно #loan #ББСБ #банк #зээл #өгнө #банкбус #шуурхайзээл #банк #Мөнгө #зээлнэ</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span class="card-cta">Send message</span>
             <a href="https://www.facebook.com/profile.php?id=253429075552349" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -2065,7 +2070,7 @@ Omniway аппликейшн татах бол 👇🏻
           <div class="card-name">Номин Юнити ББСБ / Nomin Unity NBFI</div>
           <div class="card-meta">FB · <span class="card-type" style="color:#a78bfa">Video</span> · <span class="card-date">Apr 14 – Apr 22</span></div>
           
-          <div class="card-text">Санхүүгийн хэрэгцээ цөм багтсан</div>
+          <div class="card-text">Санхүүгийн хэрэгцээ цөм багтсан</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span class="card-cta">Like Page</span>
             <a href="https://www.facebook.com/profile.php?id=253429075552349" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -2097,7 +2102,7 @@ Omniway аппликейшн татах бол 👇🏻
 -Хан-Уул дүүрэг, Номин Юнайтед их дэлгүүр, 2 давхарт
 -3,4 Хороолол, Номин Плаза Их Дэлгүүр, 4 давхарт
 -СХД 32-р хороо, Авто худалдааны цогцолбор, Автоком төв, 1 давхарт
-#зээл #loan #bank #bankbus #finance #credit #зээлийнүйлчилгээ #мөнгө #санхүү #зээлдүүлнэ #олгоно #loan #ББСБ #банк #зээл #өгнө #банкбус #шуурхайзээл #банк #Мөнгө #зээлнэ</div>
+#зээл #loan #bank #bankbus #finance #credit #зээлийнүйлчилгээ #мөнгө #санхүү #зээлдүүлнэ #олгоно #loan #ББСБ #банк #зээл #өгнө #банкбус #шуурхайзээл #банк #Мөнгө #зээлнэ</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span class="card-cta">Send message</span>
             <a href="https://www.facebook.com/profile.php?id=253429075552349" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -2110,7 +2115,7 @@ Omniway аппликейшн татах бол 👇🏻
           <div class="card-name">Номин Юнити ББСБ / Nomin Unity NBFI</div>
           <div class="card-meta">FB · <span class="card-type" style="color:#38bdf8">Image</span> · <span class="card-date">Apr 14 – Apr 22</span></div>
           <div class="card-headline">Номин Юнити ББСБ / Nomin Unity NBFI</div>
-          <div class="card-text">Санхүүгийн хэрэгцээ цөм багтсан</div>
+          <div class="card-text">Санхүүгийн хэрэгцээ цөм багтсан</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span class="card-cta">Like Page</span>
             <a href="https://www.facebook.com/profile.php?id=253429075552349" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -2172,7 +2177,7 @@ HI PAY
 ☎️8946-1100
 https://global-travel.mn/
 📍CITY TOWER, 7 ДАВХАРТ, 701 ТООТ
-ДЭЛХИЙГЭЭР АЯЛЖ ДЭЛХИЙН ДАЙТАЙ СЭТГЭЕ!</div>
+ДЭЛХИЙГЭЭР АЯЛЖ ДЭЛХИЙН ДАЙТАЙ СЭТГЭЕ!</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span class="card-cta">Send message</span>
             <a href="https://www.facebook.com/profile.php?id=414780122197321" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -2243,7 +2248,7 @@ HI PAY
 
 https://global-travel.mn/
 📍CITY TOWER, 7 ДАВХАРТ, 701 ТООТ
-ДЭЛХИЙГЭЭР АЯЛЖ ДЭЛХИЙН ДАЙТАЙ СЭТГЭЕ!</div>
+ДЭЛХИЙГЭЭР АЯЛЖ ДЭЛХИЙН ДАЙТАЙ СЭТГЭЕ!</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span class="card-cta">Send message</span>
             <a href="https://www.facebook.com/profile.php?id=414780122197321" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -2295,7 +2300,7 @@ HI PAY
 
 https://global-travel.mn/
 📍CITY TOWER, 7 ДАВХАРТ, 701 ТООТ
-ДЭЛХИЙГЭЭР АЯЛЖ ДЭЛХИЙН ДАЙТАЙ СЭТГЭЕ!</div>
+ДЭЛХИЙГЭЭР АЯЛЖ ДЭЛХИЙН ДАЙТАЙ СЭТГЭЕ!</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span class="card-cta">Send message</span>
             <a href="https://www.facebook.com/profile.php?id=414780122197321" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -2358,7 +2363,7 @@ HI PAY
 ☎️8946-1100
 https://global-travel.mn/
 📍CITY TOWER, 7 ДАВХАРТ, 701 ТООТ
-ДЭЛХИЙГЭЭР АЯЛЖ ДЭЛХИЙН ДАЙТАЙ СЭТГЭЕ!</div>
+ДЭЛХИЙГЭЭР АЯЛЖ ДЭЛХИЙН ДАЙТАЙ СЭТГЭЕ!</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span class="card-cta">Send message</span>
             <a href="https://www.facebook.com/profile.php?id=414780122197321" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -2420,7 +2425,7 @@ HI PAY
 ☎️8946-1100
 https://global-travel.mn/
 📍CITY TOWER, 7 ДАВХАРТ, 701 ТООТ
-ДЭЛХИЙГЭЭР АЯЛЖ ДЭЛХИЙН ДАЙТАЙ СЭТГЭЕ!</div>
+ДЭЛХИЙГЭЭР АЯЛЖ ДЭЛХИЙН ДАЙТАЙ СЭТГЭЕ!</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span class="card-cta">Send message</span>
             <a href="https://www.facebook.com/profile.php?id=414780122197321" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -2482,7 +2487,7 @@ HI PAY
 ☎️8946-1100
 https://global-travel.mn/
 📍CITY TOWER, 7 ДАВХАРТ, 701 ТООТ
-ДЭЛХИЙГЭЭР АЯЛЖ ДЭЛХИЙН ДАЙТАЙ СЭТГЭЕ!</div>
+ДЭЛХИЙГЭЭР АЯЛЖ ДЭЛХИЙН ДАЙТАЙ СЭТГЭЕ!</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span class="card-cta">Send message</span>
             <a href="https://www.facebook.com/profile.php?id=414780122197321" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -2546,7 +2551,7 @@ HI PAY
 https://global-travel.mn/
 
 📍CITY TOWER, 7 ДАВХАРТ, 701 ТООТ
-ДЭЛХИЙГЭЭР АЯЛЖ ДЭЛХИЙН ДАЙТАЙ СЭТГЭЕ!</div>
+ДЭЛХИЙГЭЭР АЯЛЖ ДЭЛХИЙН ДАЙТАЙ СЭТГЭЕ!</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span class="card-cta">Send message</span>
             <a href="https://www.facebook.com/profile.php?id=414780122197321" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -2608,7 +2613,7 @@ HI PAY
 ☎️8946-1100
 https://global-travel.mn/
 📍CITY TOWER, 7 ДАВХАРТ, 701 ТООТ
-ДЭЛХИЙГЭЭР АЯЛЖ ДЭЛХИЙН ДАЙТАЙ СЭТГЭЕ!</div>
+ДЭЛХИЙГЭЭР АЯЛЖ ДЭЛХИЙН ДАЙТАЙ СЭТГЭЕ!</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span class="card-cta">Send message</span>
             <a href="https://www.facebook.com/profile.php?id=414780122197321" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -2674,7 +2679,7 @@ HI PAY
 https://global-travel.mn/
 
 📍CITY TOWER, 7 ДАВХАРТ, 701 ТООТ
-ДЭЛХИЙГЭЭР АЯЛЖ ДЭЛХИЙН ДАЙТАЙ СЭТГЭЕ!</div>
+ДЭЛХИЙГЭЭР АЯЛЖ ДЭЛХИЙН ДАЙТАЙ СЭТГЭЕ!</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span class="card-cta">Send message</span>
             <a href="https://www.facebook.com/profile.php?id=414780122197321" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -2726,7 +2731,7 @@ HI PAY
 
 https://global-travel.mn/
 📍CITY TOWER, 7 ДАВХАРТ, 701 ТООТ
-ДЭЛХИЙГЭЭР АЯЛЖ ДЭЛХИЙН ДАЙТАЙ СЭТГЭЕ!</div>
+ДЭЛХИЙГЭЭР АЯЛЖ ДЭЛХИЙН ДАЙТАЙ СЭТГЭЕ!</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span class="card-cta">Send message</span>
             <a href="https://www.facebook.com/profile.php?id=414780122197321" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -2789,7 +2794,7 @@ HI PAY
 ☎️8946-1100
 https://global-travel.mn/
 📍CITY TOWER, 7 ДАВХАРТ, 701 ТООТ
-ДЭЛХИЙГЭЭР АЯЛЖ ДЭЛХИЙН ДАЙТАЙ СЭТГЭЕ!</div>
+ДЭЛХИЙГЭЭР АЯЛЖ ДЭЛХИЙН ДАЙТАЙ СЭТГЭЕ!</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span class="card-cta">Send message</span>
             <a href="https://www.facebook.com/profile.php?id=414780122197321" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -2848,7 +2853,7 @@ HI PAY
 
 https://global-travel.mn/
 📍CITY TOWER, 7 ДАВХАРТ, 701 ТООТ
-ДЭЛХИЙГЭЭР АЯЛЖ ДЭЛХИЙН ДАЙТАЙ СЭТГЭЕ!</div>
+ДЭЛХИЙГЭЭР АЯЛЖ ДЭЛХИЙН ДАЙТАЙ СЭТГЭЕ!</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span class="card-cta">Send message</span>
             <a href="https://www.facebook.com/profile.php?id=414780122197321" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -2877,7 +2882,7 @@ https://global-travel.mn/
 Манай салбарууд:
 📍 Чингэлтэй, 5 хороо, Ялалт плаза 8 давхарт 803 тоот
 
-#Cybernetic #ББСБ #Үлхөдлөххөрөнгийнзээл #Зээл #Шуурхайзээл</div>
+#Cybernetic #ББСБ #Үлхөдлөххөрөнгийнзээл #Зээл #Шуурхайзээл</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span class="card-cta">Visit Profile</span>
             <a href="https://www.facebook.com/profile.php?id=188326607688945" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -2897,7 +2902,7 @@ https://global-travel.mn/
 ------------------------------------------
 📌Бид таны хэрэгцээнд зориулсан зээлийг #түргэн_шуурхай_найдвартай олгоно😎
 📞📞 8076-2255
-📞📞 8587-2255</div>
+📞📞 8587-2255</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span class="card-cta">Call now</span>
             <a href="https://www.facebook.com/profile.php?id=530406260157699" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -2925,7 +2930,7 @@ https://global-travel.mn/
 📍Зайсангийн Оргил дох салбар 9502-7105, 9595-6155
 📍Төмөр зам дах салбар 9509-7955, 9599-5355
 📍ХУД Яармаг дах салбар 9507-7105, 9402-7105
-📍Дархан-Уул дах салбар 8806-3280,  8885-7105</div>
+📍Дархан-Уул дах салбар 8806-3280,  8885-7105</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span class="card-cta">Send message</span>
             <a href="https://www.facebook.com/profile.php?id=1433688690201206" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -2956,7 +2961,7 @@ https://global-travel.mn/
 📍Зайсангийн Оргил дох салбар 9502-7105, 9595-6155
 📍Дархан-Уул дах салбар 8806-3280,  8885-7105
 
-@дагагч</div>
+@дагагч</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span class="card-cta">Send message</span>
             <a href="https://www.facebook.com/profile.php?id=1433688690201206" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -2979,7 +2984,7 @@ https://global-travel.mn/
 ☎️Холбоо барих утас:  8806-3280,  8885-7105, 77777-105 
 
  #Бага_Хүү #УянХатанНөхцөл #Хурданшуурхаи #газар
-@дагагч</div>
+@дагагч</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span class="card-cta">Send message</span>
             <a href="https://www.facebook.com/profile.php?id=1433688690201206" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -3003,7 +3008,7 @@ https://global-travel.mn/
 📍САЛБАР 2. БЗД, 16-РХОРОО, ДАНДАРБААТАРЫН ГУДАМЖ, СОЁМБО ТӨВ 301 ТООТ
 ☎️ 90978085, 90958085
 📍САЛБАР 3. СХД, 18- Р ХОРОО, 19-Р БАЙРНЫ ҮЙЛЧИЛГЭЭНИЙ ТӨВИЙН 2 ДАВХАРТ 
-☎️ 90058085, 91058085</div>
+☎️ 90058085, 91058085</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span class="card-cta">Send message</span>
             <a href="https://www.facebook.com/profile.php?id=1577304702541752" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -3048,7 +3053,7 @@ https://global-travel.mn/
 1. Гэрчилгээ, кадастрын зураг
 2. Дансны хуулга 6 сар
 3. Хур системд нэгдсэн тул олон баримт шаардахгүй.
-байна.</div>
+байна.</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span class="card-cta">Send message</span>
             <a href="https://www.facebook.com/profile.php?id=470600709991616" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -3068,7 +3073,7 @@ https://global-travel.mn/
 💡Бизнесийн зээл
 🌐 Илүү дэлгэрэнгүй мэдээллийг www.gcp.mn
 ☎️ Холбоо барих утас: 77777-105 
-~ Харилцагчийн амжилт, Бидний амжилтын баталгаа ~</div>
+~ Харилцагчийн амжилт, Бидний амжилтын баталгаа ~</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span class="card-cta">Like Page</span>
             <a href="https://www.facebook.com/profile.php?id=1433688690201206" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -3091,7 +3096,7 @@ https://global-travel.mn/
 ☑️ Хашаа байшин
 📍 Зүүн 4 зам &quot;Channel&quot; төв, 303 тоот
 📞 99198066, 86198066
-📲 Шуурхай шийдэл, итгэлтэй үйлчилгээ — Үнэнч Итгэл ББСБ</div>
+📲 Шуурхай шийдэл, итгэлтэй үйлчилгээ — Үнэнч Итгэл ББСБ</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span class="card-cta">Call now</span>
             <a href="https://www.facebook.com/profile.php?id=168717250387617" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -3132,7 +3137,7 @@ https://global-travel.mn/
 Б блок, 2-р давхар, 214 тоот
 📞 Холбогдох: 7772-5511
 
-#cecinvestment #мотициклзээл #мопедзээл #шуурхайзээл</div>
+#cecinvestment #мотициклзээл #мопедзээл #шуурхайзээл</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span></span>
             <a href="https://www.facebook.com/profile.php?id=1478577369096007" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -3162,7 +3167,7 @@ https://global-travel.mn/
 
 📞 Холбогдох: 7772-5511
 
-#cecinvestment #санхүүгийнбаталгаа #тендерийнбаталгаа #урьдчилгаатөлбөр #бизнесшийдэл</div>
+#cecinvestment #санхүүгийнбаталгаа #тендерийнбаталгаа #урьдчилгаатөлбөр #бизнесшийдэл</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span class="card-cta">Send message</span>
             <a href="https://www.facebook.com/profile.php?id=1478577369096007" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -3192,7 +3197,7 @@ https://global-travel.mn/
 
 --
 ☎️7772-5511 
-#cecinvestment  #эерэг_өөрчлөлтөд_түүчээлнэ #эерэгнөлөөлөл #эерэгхандлага #тайлан</div>
+#cecinvestment  #эерэг_өөрчлөлтөд_түүчээлнэ #эерэгнөлөөлөл #эерэгхандлага #тайлан</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span></span>
             <a href="https://www.facebook.com/profile.php?id=1478577369096007" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -3217,10 +3222,38 @@ https://global-travel.mn/
  ББСБ (урьд 20-40%, хугацаа 1-36 сар)
  Trade in (Унаж байгаа машинаа урьдчилгаанд оролцуулж болно)
 Хаяг: Нарны гүүрний зүүн талын автобусны буудлын хойгуур эргээд рно. (хуучнаар Төмрийн заводын байр)
-Жич: Монголд үйл ажиллагаа явуулж байгаа бүх банкны зээлээр авах боломжтой</div>
+Жич: Монголд үйл ажиллагаа явуулж байгаа бүх банкны зээлээр авах боломжтой</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span class="card-cta">No button</span>
             <a href="https://www.facebook.com/profile.php?id=126037191308526" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://scontent-waw2-2.xx.fbcdn.net/v/t39.35426-6/658426310_2409885312787001_7530929300881206650_n.jpg?_nc_cat=106&amp;ccb=1-7&amp;_nc_sid=c53f8f&amp;_nc_ohc=PM1bzkpAbPEQ7kNvwFdY8Nm&amp;_nc_oc=AdrQob4dwzv3MVjFKLo8gAUmjjBeggCjPYj3EokqTiy3jcSYTsKA1B-ItWW__Nf6ZOo&amp;_nc_zt=14&amp;_nc_ht=scontent-waw2-2.xx&amp;_nc_gid=xNi9RzZRCx6y91VYSMcihg&amp;_nc_ss=7a289&amp;oh=00_Af2kjPaMIicir_fXwaojJsZFwnDbxgsTrQ7ieGdhU8MS4A&amp;oe=69EEB326" class="card-img" alt="">
+        <div class="card-body">
+          <div class="card-name">Номин Юнити ББСБ / Nomin Unity NBFI</div>
+          <div class="card-meta">FB · IG · AN · <span class="card-type" style="color:#38bdf8">Image</span> · <span class="card-date">Mar 26 – Apr 22</span></div>
+          
+          <div class="card-text">Танд тохирсон #автомашины амар шийдэл
+
+Бид таны санхүүгийн боломжид нийцсэн:
+ 📉Хүү
+ ⏰Хугацаа
+ 📝Уян хатан нөхцөл санал болгож хамгийн зөв шийдлийг олж өгнө.
+
+🌐Илүү ихийг https://shorturl.at/3j3Bp
+
+📍Салбар байршил:
+-Чингэлтэй дүүрэг, Улсын Их Дэлгүүр, 4 давхарт
+-БЗД, 24-р хороо, Дахүрээ захын баруун хойно, Интер төвийн 1-р давхарт  
+-Хан-Уул дүүрэг, Номин Юнайтед их дэлгүүр, 2 давхарт
+-3,4 Хороолол, Номин Плаза Их Дэлгүүр, 4 давхарт
+-СХД 32-р хороо, Авто худалдааны цогцолбор, Автоком төв, 1 давхарт
+#автомашинылизинг #машинызээл  #Benz  #Toyota   #ford  #landrover  #G500 #SUV  #luxurycars  #зээл #лизинг #ББСБ #банкбус #шуурхайзээл #банк #Мөнгө #зээлнэ #зээлдүүлнэ #лизинг #Лизингээр #машин #машины #худалдаа #авто #Bank #banking #auto #BBSB</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
+          <div class="card-footer">
+            <span class="card-cta">Send message</span>
+            <a href="https://www.facebook.com/profile.php?id=253429075552349" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
           </div>
         </div>
       </div>
@@ -3243,10 +3276,37 @@ https://global-travel.mn/
 Та зүгээр л залга✅👆
 Хүссэн автомашиныг тань зээлийн шийдлийг бүрэн зохион байгуулж өгнө. 🚘
 
-#mashinzarna #prius30 #prius50 #prius51 #машинзарна</div>
+#mashinzarna #prius30 #prius50 #prius51 #машинзарна</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span class="card-cta">Send message</span>
             <a href="https://www.facebook.com/profile.php?id=375837592276010" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://scontent-waw2-2.xx.fbcdn.net/v/t39.35426-6/655725646_25646575691686264_5509778484948388967_n.jpg?_nc_cat=103&amp;ccb=1-7&amp;_nc_sid=c53f8f&amp;_nc_ohc=nG8zuLhRyo0Q7kNvwFyc0nE&amp;_nc_oc=AdqbDkVrg0gV-w0TrWEguJuColZgYKvgOBnJZuuV9v9JTuoWqNg3qyKlZA5QeVsi9ks&amp;_nc_zt=14&amp;_nc_ht=scontent-waw2-2.xx&amp;_nc_gid=xNi9RzZRCx6y91VYSMcihg&amp;_nc_ss=7a289&amp;oh=00_Af3qqoQxC5IHp0ScGzmc2luRlUtaNsRbdHGvRPRnqGF6Cg&amp;oe=69EECA0E" class="card-img" alt="">
+        <div class="card-body">
+          <div class="card-name">Номин Юнити ББСБ / Nomin Unity NBFI</div>
+          <div class="card-meta">FB · IG · AN · <span class="card-type" style="color:#38bdf8">Image</span> · <span class="card-date">Mar 22 – Apr 22</span></div>
+          
+          <div class="card-text">Танд тохирсон #автомашины #зээлийн шийдэл 🛣️
+Бид таны санхүүгийн боломжид нийцсэн:
+ 📉Хүү
+ ⏰Хугацаа
+ 📝Төлөлтийн нөхцөл санал болгож, хамгийн зөв шийдлийг олж өгнө.
+
+🌐Илүү ихийг https://shorturl.at/3j3Bp
+
+📍Салбар байршил:
+-Чингэлтэй дүүрэг, Улсын Их Дэлгүүр, 4 давхарт
+-БЗД, 24-р хороо, Дахүрээ захын баруун хойно, Интер төвийн 1-р давхарт  
+-Хан-Уул дүүрэг, Номин Юнайтед их дэлгүүр, 2 давхарт
+-3,4 Хороолол, Номин Плаза Их Дэлгүүр, 4 давхарт
+-СХД 32-р хороо, Авто худалдааны цогцолбор, Автоком төв, 1 давхарт
+#автомашинылизинг #машинызээл  #Benz  #Toyota   #ford  #landrover  #G500 #SUV  #luxurycars  #зээл #лизинг #ББСБ #банкбус #шуурхайзээл #банк #Мөнгө #зээлнэ #зээлдүүлнэ #лизинг #Лизингээр #машин #машины #худалдаа #авто #Bank #banking #auto #BBSB</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
+          <div class="card-footer">
+            <span class="card-cta">Send message</span>
+            <a href="https://www.facebook.com/profile.php?id=253429075552349" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
           </div>
         </div>
       </div>
@@ -3268,7 +3328,7 @@ https://global-travel.mn/
 #онлайн_зээl #эко_зээл #шуурхайзээл #хурданшуурхай #бизнесийнзээл #YouthInBusiness #хамгийнбагахүү #эдийнзасагч #housingloan #GreenLoan #Хашаандаа #эко_зээл #засвар_хийх #УЯН_ХАТАН #Зөвлөгөө #ШинэОронСууц #transcapital #шуурхайзээл #шуурхай #транскапитал #онлайн_зээl #түргэншуурхай #СанхүүгийнШийдэл #бизнесийнзээл #хялбарзээл #хурданшуурхай #Автомашинызээл #ХарЖагсаалт #зээлийнмэдээллийнсан #ficoscore  
 
 Таны цагийг хэмнэж, Боломжийг нэмэгдүүлнэ
-Тантай хамт, Аз жаргалын төлөө</div>
+Тантай хамт, Аз жаргалын төлөө</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span class="card-cta">Send message</span>
             <a href="https://www.facebook.com/profile.php?id=948145318864559" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -3282,7 +3342,7 @@ https://global-travel.mn/
           <div class="card-meta">FB · <span class="card-type" style="color:#38bdf8">Image</span> · <span class="card-date">Apr 14 – Apr 22</span></div>
           <div class="card-headline">Есөн шижир инвест ББСБ</div>
           <div class="card-text">Та байртай болохыг хүсдэг ч хаанаас эхлэхээ мэдэхгүй байна уу?
-📲Follow хийж илүү дэлгэрэнгүй мэдээллээ аваарай...</div>
+📲Follow хийж илүү дэлгэрэнгүй мэдээллээ аваарай...</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span class="card-cta">Like Page</span>
             <a href="https://www.facebook.com/profile.php?id=305919473133392" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -3306,7 +3366,7 @@ https://global-travel.mn/
 
 Гэрэл Финанс ББСБ - Хүлээлгүй, Зорилгодоо хүр✨
 
-Та зээлийн мэргэжилтэнтэй шууд холбогдон дэлгэрэнгүй мэдээлэл авах боломжтой. 😉👌</div>
+Та зээлийн мэргэжилтэнтэй шууд холбогдон дэлгэрэнгүй мэдээлэл авах боломжтой. 😉👌</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span class="card-cta">Send message</span>
             <a href="https://www.facebook.com/profile.php?id=1185471004807300" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -3331,7 +3391,7 @@ https://global-travel.mn/
 📆 Хугацаа: 1–48 сар
 ⚡ Зээлийн шийдвэр: ердөө 20 минутанд
 
-ГЭРЭЛ ФИНАНС ББСБ - ТАНЫ САНХҮҮГИЙН ГЭРЭЛ✨</div>
+ГЭРЭЛ ФИНАНС ББСБ - ТАНЫ САНХҮҮГИЙН ГЭРЭЛ✨</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span class="card-cta">Send message</span>
             <a href="https://www.facebook.com/profile.php?id=1185471004807300" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -3364,7 +3424,7 @@ BID App татаад онлайнаар зээлийн хүсэлтээ илгэ
 #үл_хөдлөх_хөрөнгө_барьцаалсан_зээл
 #Автомашин_лизинг
 #Бизнесийн_Зээл
-#Улаанбаатар</div>
+#Улаанбаатар</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span class="card-cta">Call now</span>
             <a href="https://www.facebook.com/profile.php?id=131940979991449" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -3406,7 +3466,7 @@ Play store-с татах: https://shorturl.at/sV802
 #үлхөдлөххөрөнгөбарьцаалсанзээл
 #бизнесийнзээл
 #автомашинбарьцаалсанзээл
-#VisionFundMongolia</div>
+#VisionFundMongolia</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span class="card-cta">Send message</span>
             <a href="https://www.facebook.com/profile.php?id=115807498077973" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -3435,7 +3495,7 @@ https://www.transcapital.mn/25
 ☎️1800-1600
 🌐www.transcapital.mn 
 
-#transcapital #транскапитал #Барилгын #шуурхайзээл #хурданзээл #УянХатан #бизнесийнзээл #зээл #хүүбага</div>
+#transcapital #транскапитал #Барилгын #шуурхайзээл #хурданзээл #УянХатан #бизнесийнзээл #зээл #хүүбага</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span class="card-cta">Send message</span>
             <a href="https://www.facebook.com/profile.php?id=948145318864559" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -3475,7 +3535,7 @@ https://www.transcapital.mn/25
 ☎️ 1800-1600
 
 #housingloan #GreenLoan #Хашаандаа #эко_зээл #засвар_хийх #УЯН_ХАТАН #Зөвлөгөө #ШинэОронСууц #transcapital #шуурхайзээл #шуурхай #транскапитал #онлайн_зээl #түргэншуурхай
-Тантай хамт, Аз жаргалын төлөө</div>
+Тантай хамт, Аз жаргалын төлөө</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span class="card-cta">Learn more</span>
             <a href="https://www.facebook.com/profile.php?id=948145318864559" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -3508,7 +3568,7 @@ https://www.transcapital.mn/25
 
 #Онлайнзээл #шуурхайзээл #Автомашинызээл #хялбарзээл #Дахүрээ #автотээвэр #хамгийн_бага_хүүтэй #хурданшуурхай #шуурхайшийдэл
 
-Тантай хамт Аз жаргалын төлөө</div>
+Тантай хамт Аз жаргалын төлөө</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span class="card-cta">Apply now</span>
             <a href="https://www.facebook.com/profile.php?id=948145318864559" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -3531,7 +3591,7 @@ https://www.transcapital.mn/25
 
 ☎️ 7755-8822, 8976-8822, 8024-8822
 
-#Автомашинызээл #шуурхайзээл #ҮнэтКредитББСБ</div>
+#Автомашинызээл #шуурхайзээл #ҮнэтКредитББСБ</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span class="card-cta">Like Page</span>
             <a href="https://www.facebook.com/profile.php?id=443801955987889" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -3552,7 +3612,7 @@ https://www.transcapital.mn/25
 
 ☎️ 7755-8822, 8976-8822, 8024-8822
 
-#ҮлХөдлөхХөрөнгөБарьцаалсанЗээл #шуурхайзээл #ҮнэтКредитББСБ</div>
+#ҮлХөдлөхХөрөнгөБарьцаалсанЗээл #шуурхайзээл #ҮнэтКредитББСБ</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span class="card-cta">Send message</span>
             <a href="https://www.facebook.com/profile.php?id=443801955987889" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -3591,7 +3651,7 @@ https://www.transcapital.mn/25
 Шинэ боломжуудыг хамтдаа нээцгээе! 
 Тантай хамт, Аз жаргалын төлөө 
 
-#харилцагчдынөдөрлөг2026 #өдөрлөг #eventmongolia #mongoliaevent #businessmongolia #networkingmongolia #opportunity #бизнесхөгжил #санхүүгийнзөвлөгөө #зээл #жижигдундажбизнес #entrepreneurlife #businessgrowth #startupmongolia #ороннутгийнхөгжил #транскапитал</div>
+#харилцагчдынөдөрлөг2026 #өдөрлөг #eventmongolia #mongoliaevent #businessmongolia #networkingmongolia #opportunity #бизнесхөгжил #санхүүгийнзөвлөгөө #зээл #жижигдундажбизнес #entrepreneurlife #businessgrowth #startupmongolia #ороннутгийнхөгжил #транскапитал</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span class="card-cta">Send message</span>
             <a href="https://www.facebook.com/profile.php?id=948145318864559" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -3616,7 +3676,7 @@ https://www.transcapital.mn/25
 
 #малчнызээл #улиралбүр #бүхтөрлийнзээл #бизнесийнзээл #шуурхайзээл #Ногоонзээл #эргэлтийнхөрөнгийнзээл #Хөрөнгөоруулалтынзээл #уртхугацаа #хүүбага #УянХатан
 
-Тантай хамт, Аз жаргалын төлөө</div>
+Тантай хамт, Аз жаргалын төлөө</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span class="card-cta">Visit Profile</span>
             <a href="https://www.facebook.com/profile.php?id=948145318864559" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -3639,7 +3699,7 @@ https://www.transcapital.mn/25
 
 ☎️ 7755-8822, 8976-8822, 8024-8822
 
-#Автомашинызээл #шуурхайзээл #ҮнэтКредитББСБ</div>
+#Автомашинызээл #шуурхайзээл #ҮнэтКредитББСБ</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span class="card-cta">Send message</span>
             <a href="https://www.facebook.com/profile.php?id=443801955987889" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -3666,7 +3726,7 @@ https://www.transcapital.mn/25
 
 Тантай хамт, Аз жаргалын төлөө
 
-#ажлынбайр #ажилхайжбайна #ажилдорно #ажил #jobmn #career #hiring #opportunity #workmongolia #internship #шинэтөгсөгч #цалин #bonus #орлого #income #applynow #joinus #wearehiring #teamwork #growth #амжилт</div>
+#ажлынбайр #ажилхайжбайна #ажилдорно #ажил #jobmn #career #hiring #opportunity #workmongolia #internship #шинэтөгсөгч #цалин #bonus #орлого #income #applynow #joinus #wearehiring #teamwork #growth #амжилт</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span class="card-cta">Send message</span>
             <a href="https://www.facebook.com/profile.php?id=948145318864559" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
@@ -3694,7 +3754,7 @@ https://www.transcapital.mn/25
 
 Залуу бизнес эрхлэгч танд тус хөтөлбөр ҮРГЭЛЖ НЭЭЛТТЭЙ.
 
-#бүхтөрлийнзээл #бизнесийнзээл #шуурхайзээл #EBRD #transcapital #YouthInBusiness #YiB #Сургалт #зээлийнзөвлөгөө</div>
+#бүхтөрлийнзээл #бизнесийнзээл #шуурхайзээл #EBRD #transcapital #YouthInBusiness #YiB #Сургалт #зээлийнзөвлөгөө</div><button class="card-toggle" onclick="var t=this.previousElementSibling,h=this.previousElementSibling.previousElementSibling;var exp=t.classList.toggle('expanded');if(h&&h.classList.contains('card-headline'))h.classList.toggle('expanded');this.textContent=exp?'Show less':'Read more'">Read more</button>
           <div class="card-footer">
             <span class="card-cta">Send message</span>
             <a href="https://www.facebook.com/profile.php?id=948145318864559" target="_blank" rel="noopener noreferrer" class="card-link">View Page ↗</a>
